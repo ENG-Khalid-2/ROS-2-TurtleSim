@@ -35,7 +35,7 @@ sudo apt install ros-${ROS_DISTRO}-turtlesim ros-${ROS_DISTRO}-rqt ros-${ROS_DIS
 ros2 run turtlesim turtlesim_node
 ```
 
-🖼️  
+  
 <img src="pic0.png" width="500"/>
 
 ---
@@ -50,12 +50,12 @@ ros2 run turtlesim turtle_teleop_key
 
 Use the arrow keys to move the turtle.
 
-🖼️  
+  
 <img src="pic1.png" width="500"/>
 
 ---
 
-### 3. Change Pen Color and Width
+### 3. Service Callers
 
 Open `rqt`:
 
@@ -68,14 +68,15 @@ Then choose:
 Plugins > Services > Service Caller
 ```
 
-Call `/turtle1/set_pen` with red color (R=255, G=0, B=0), and width = 10.
+This Service Caller can provide many functions, such as changing the pen, clearing the screen, or spawning a new turtle.
 
-🖼️  
+
+
 <img src="pic2.png" width="500"/>
 
-Result:
 
-🖼️  
+
+  
 <img src="pic3.png" width="500"/>
 
 ---
@@ -110,7 +111,7 @@ Remap the command topic:
 ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=t1/cmd_vel
 ```
 
-🖼️  
+  
 <img src="pic6.png" width="500"/>
 
 ---
@@ -119,7 +120,7 @@ ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=t1/cmd_
 
 Use `/t1/teleport_absolute` to teleport the turtle to (x=5, y=5, theta=5).
 
-🖼️  
+ 
 <img src="pic8.png" width="500"/>
 
 ---
