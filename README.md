@@ -55,7 +55,7 @@ Use the arrow keys to move the turtle.
 
 ---
 
-### 3. Service Callers
+### 3. Service Caller
 
 Open `rqt`:
 
@@ -85,7 +85,7 @@ This Service Caller can provide many functions, such as changing the pen, cleari
 
 Call `/clear` service in `rqt`.
 
-🖼️  
+ 
 <img src="pic4.png" width="500"/>
 
 ---
@@ -98,7 +98,7 @@ Call `/spawn` service and set:
 - theta: 0.0
 - name: `t1`
 
-🖼️  
+ 
 <img src="pic5.png" width="500"/>
 
 ---
