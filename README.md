@@ -36,7 +36,7 @@ ros2 run turtlesim turtlesim_node
 ```
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 214705.png" width="500"/>
+<img src="pic0.png" width="500"/>
 
 ---
 
@@ -51,7 +51,7 @@ ros2 run turtlesim turtle_teleop_key
 Use the arrow keys to move the turtle.
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 214745.png" width="500"/>
+<img src="pic1.png" width="500"/>
 
 ---
 
@@ -71,12 +71,12 @@ Plugins > Services > Service Caller
 Call `/turtle1/set_pen` with red color (R=255, G=0, B=0), and width = 10.
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 215024.png" width="500"/>
+<img src="pic2.png" width="500"/>
 
 Result:
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 215100.png" width="500"/>
+<img src="pic3.png" width="500"/>
 
 ---
 
@@ -85,7 +85,7 @@ Result:
 Call `/clear` service in `rqt`.
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 215127.png" width="500"/>
+<img src="pic4.png" width="500"/>
 
 ---
 
@@ -98,7 +98,7 @@ Call `/spawn` service and set:
 - name: `t1`
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 214911.png" width="500"/>
+<img src="pic5.png" width="500"/>
 
 ---
 
@@ -111,7 +111,7 @@ ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=t1/cmd_
 ```
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 215622.png" width="500"/>
+<img src="pic6.png" width="500"/>
 
 ---
 
@@ -120,7 +120,7 @@ ros2 run turtlesim turtle_teleop_key --ros-args --remap turtle1/cmd_vel:=t1/cmd_
 Use `/t1/teleport_absolute` to teleport the turtle to (x=5, y=5, theta=5).
 
 🖼️  
-<img src="لقطة شاشة 2025-08-01 215652.png" width="500"/>
+<img src="pic8.png" width="500"/>
 
 ---
 
